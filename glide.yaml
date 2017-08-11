@@ -1,0 +1,11 @@
+package: github.com/timbirk/aws-env-manager
+import:
+- package: github.com/spf13/jwalterweatherman
+- package: github.com/spf13/viper
+- package: github.com/aws/aws-sdk-go
+- package: github.com/boltdb/bolt
+- package: github.com/jasonlvhit/gocron
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert

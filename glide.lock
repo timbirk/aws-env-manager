@@ -1,0 +1,18 @@
+hash: 571c275017a2c0266f6fbbb15921ee6471fa76831212d579667acb1e25b3dffd
+updated: 2017-08-11T15:05:17.760551044+01:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: cf66c348f82c79de333bd788d4f782c4d623ebad
+- name: github.com/boltdb/bolt
+  version: 2f1ce7a837dcb8da3ec595b1dac9d0632f0f99e8
+- name: github.com/jasonlvhit/gocron
+  version: 42a5804d37aa0b9239b265e894a16b8edbf52d54
+- name: github.com/spf13/jwalterweatherman
+  version: 0efa5202c04663c757d84f90f5219c1250baf94f
+- name: github.com/spf13/viper
+  version: 25b30aa063fc18e48662b86996252eabdcf2f0c7
+testImports:
+- name: github.com/stretchr/testify
+  version: 890a5c3458b43e6104ff5da8dfa139d013d77544
+  subpackages:
+  - assert
